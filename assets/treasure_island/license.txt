@@ -1,0 +1,11 @@
+Model Information:
+* title:	treasure island
+* source:	https://sketchfab.com/3d-models/treasure-island-446c38eec211410388ba09d36d0d69a9
+* author:	dylan hatcher (https://sketchfab.com/DylanHatcher)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "treasure island" (https://sketchfab.com/3d-models/treasure-island-446c38eec211410388ba09d36d0d69a9) by dylan hatcher (https://sketchfab.com/DylanHatcher) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

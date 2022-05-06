@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <script src="roation.js"></script>
+
+  </head>
+
+  <body>
+    <a-scene background="color:#026F90">
+
+      <a-entity id="look" look-controls camera position="0 0 40"></a-entity>
+      <!--Asset Management-->
+      <a-assets timeout="10000">        
+        <a-assest-item id="terrain-map" src="./assets/treasure_island/scene.gltf">
+       </a-assest-item>
+        <a-assest-item id="player" src="./assets/iron_man_dead/scene.gltf"></a-assest-item>
+        <a-assest-item id="treasure" src="./assets/treasure_chest/scene.gltf"></a-assest-item>
+
+      </a-assets>
+
+      <!-- Terrain  -->
+     <a-entity id="terrain" gltf-model="#terrain-map" position="0 0 0" scale="0.9  0.9 0.9" animation="property:position; to:0 0 1000; easing: linear; loop:true; dur:15000000" terrain-rotation-reader></a-entity>
+     
+      <a-entity id="player-model" gltf-model="#player" position="0 -6 35" scale="0.8 0.7" rotation="0 -200 0" diver-rotation-reader></a-entity>
+      <a-entity  gltf-model="#treasure" position="-30 -8 5" scale="0.3 0.5"></a-entity>
+
+    </a-scene>
+  </body>
+</html>
